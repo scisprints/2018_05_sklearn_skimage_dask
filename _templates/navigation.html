@@ -1,0 +1,19 @@
+<br/>
+
+<div style="width: 100%; text-align: center;" id="sideIndex">
+  <div class="sideEntry"><a href="motivation.html">Motivation</a></div>
+  <div class="sideEntry"><a href="index.html">Sprints</a></div>
+</div>
+
+<div style="width: 100%; text-align: center;">
+  {{ toctree(includehidden=theme_sidebar_includehidden, collapse=theme_sidebar_collapse) }}
+</div>
+
+{% if theme_extra_nav_links %}
+<hr />
+<ul>
+    {% for text, uri in theme_extra_nav_links.items() %}
+    <li class="toctree-l1"><a href="{{ uri }}">{{ text }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

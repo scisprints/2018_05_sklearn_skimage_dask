@@ -1,0 +1,2 @@
+Sphinx >= 1.6.2
+ghp-import >= 0.5.5

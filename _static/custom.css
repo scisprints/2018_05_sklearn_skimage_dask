@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family: Helvetica !important;
+}
+
+h2 {
+    font-family: Helvetica !important;
+    color: teal;
+}
+
+.logo {
+    font-size: 250%;
+}
+
+div.body h1 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+div.body h2 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#sideIndex {
+    font-size: 150%;
+    padding-top: 2em;
+}
+
+.sideEntry {
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+    text-align: left;
+}
