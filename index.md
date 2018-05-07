@@ -9,7 +9,7 @@ these two libraries face unprecedent scalability challenges.
 One currently under-utilized avenue for solving such scalability challenge is
 to leverage the Python library Dask, which provides flexible parallelized
 NumPy and Pandas DataFrame, the core numerical objects used in Scientific
-Python. Our goal is thus to organiza sprint bringing together a small number
+Python. Our goal is thus to organize a sprint bringing together a small number
 of developers from scikit-learn, scikit-image, and Dask to experiment and
 improve the three libraries.
 
